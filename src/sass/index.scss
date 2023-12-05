@@ -1,2 +1,9 @@
-@import './common';
-@import './example';
+@import './base/resets';
+@import './utils/mixins';
+@import './utils/vars';
+@import './layouts/header';
+@import './layouts/gallery';
+@import './components/form';
+@import './components/card-set';
+@import './components/theme';
+// @import './components/button';

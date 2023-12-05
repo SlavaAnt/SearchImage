@@ -1,0 +1,16 @@
+.cards {
+  // @extend %list;
+
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--indent-row); //відступ між рядками
+  column-gap: var(--indent-column); //відступ між колонками
+}
+
+.cards__item {
+  flex-basis: calc(
+    (100% - (var(--items) - 1) * var(--indent-column)) / var(--items)
+  );
+  // flex-shrink: 2;
+  // width: 300px;
+}

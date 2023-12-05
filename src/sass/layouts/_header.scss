@@ -1,0 +1,11 @@
+.header {
+  @include section;
+
+  background-color: rgb(121, 206, 206);
+
+  &__container {
+    @include container;
+    display: flex;
+    align-items: center;
+  }
+}

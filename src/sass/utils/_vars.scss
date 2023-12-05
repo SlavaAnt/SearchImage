@@ -1,0 +1,45 @@
+/* Breackpoints */
+$mobile: 320px;
+// width container = 290+2*15 = 320px
+$tablet: 768px;
+// width container = 738+2*15 = 768px
+$desktop: 1200px;
+// container = 1170+2*15 = 1200px
+
+:root {
+  /* Font families */
+  --font: 'Roboto', sans-serif;
+
+  //   Colors
+  --accent-color: rgb(32, 12, 104);
+
+  /* Text colors */
+  --t-main-color: #333333;
+  --t-white-color: #ffffff;
+  --t-light-color: #e9e9e9;
+  --t-grey-color: #555555;
+  //
+
+  /* Icons */
+  //   --i-main-color: #afb1b8;
+  //   --i-secondary-color: #757575;
+  //   --i--white-color: #ffffff;
+
+  /* Background colors*/
+  --bg-light-color: #ffffff;
+  --bg-dark-color: #333333;
+
+  /* Border colors*/
+  --br-light-color: #ffffff;
+
+  /* Card-set */
+  --items: 4;
+  --indent-row: 20px; //відступ між рядками
+  --indent-column: 20px; //відступ між колонками
+
+  /* Animations */
+  //   --trans-fast: 400ms ease 0ms;
+  //   --trans-slow: 800ms easy-in 0ms;
+  //   --trans: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  // --trans: 2s;
+}

@@ -1,0 +1,22 @@
+@mixin container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  // outline: 1px solid red;
+
+  @media screen and (min-width: $tablet) {
+    width: 768px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 1200px;
+  }
+}
+
+@mixin section {
+  padding: 10px 0;
+  // outline: 1px solid rgb(68, 0, 255);
+
+  // @media screen and (min-width: $desktop) {
+  //   padding: 5px 0;
+  // }
+}

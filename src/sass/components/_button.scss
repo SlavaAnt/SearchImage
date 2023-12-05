@@ -1,0 +1,45 @@
+.btn {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(22 / 16);
+  text-align: center;
+
+  color: var(--t-white-color);
+  background-color: var(--accent-color);
+  opacity: 0.95;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 28px 10px 28px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+
+  &--left {
+    margin-left: 0;
+  }
+
+  &__icon {
+    fill: var(--t-white-color);
+    margin-right: 5px;
+  }
+
+  &__link {
+    @extend %link;
+
+    background-color: transparent;
+    border: 1px solid var(--br-light-color);
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+
+    // min-width: 158px;
+    height: 47px;
+    padding: 10px 36px 10px 36px;
+
+    @media screen and (min-width: $tablet) {
+      min-width: 167px;
+      height: 50px;
+    }
+  }
+}
